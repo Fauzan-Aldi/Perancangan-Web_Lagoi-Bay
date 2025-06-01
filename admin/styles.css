@@ -1,0 +1,99 @@
+/* Reset & root */
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white: #ffffff;
+  --bright-navy-blue: #1a3c9a;
+  --yale-blue: #103c91;
+  --spanish-gray: #999999;
+  --black-coral: #546e7a;
+  --jet: #333333;
+  --radius-15: 15px;
+  --transition: 0.3s ease;
+  --ff-poppins: 'Poppins', sans-serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-600: 600;
+  --fs-2: 1.75rem;
+  --fs-5: 1rem;
+  --fs-6: 0.875rem;
+}
+
+/* Body with fullscreen background image */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: var(--ff-poppins);
+  background: url('./../public/assets/images/gambar 2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container */
+.login-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px 30px;
+  border-radius: var(--radius-15);
+  box-shadow: 0 4px 15px hsla(207, 79%, 39%, 0.397);
+  width: 360px;
+  text-align: center;
+  
+}
+
+/* Logo */
+.login-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.login-title {
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-800);
+  font-size: var(--fs-2);
+  color: var(--bright-navy-blue);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.5px solid var(--spanish-gray);
+  border-radius: var(--radius-15);
+  font-size: var(--fs-5);
+  color: var(--jet);
+  transition: var(--transition);
+}
+
+.login-input:focus {
+  border-color: var(--bright-navy-blue);
+  outline: none;
+  box-shadow: 0 0 5px var(--bright-navy-blue);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  background: rgba(59 120, 180, 1);
+  color: var(--white);
+  padding: 12px 0;
+  border-radius: 100px;
+  font-weight: var(--fw-700);
+  font-size: var(--fs-5);
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.login-btn:hover,
+.login-btn:focus {
+  background: var(--yale-blue);
+}

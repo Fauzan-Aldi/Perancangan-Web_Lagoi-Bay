@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -174,8 +174,6 @@
 
           <div class="btn-group">
             <button class="btn btn-primary">Learn more</button>
-
-            <button class="btn btn-secondary">Book now</button>
           </div>
 
         </div>
@@ -353,7 +351,9 @@
 
           </ul>
 
-          <button class="btn btn-primary">More Staycation</button>
+          <form action="./../proses/staycation.php"method="get">
+            <button type="submit" class="btn btn-primary">More Staycation</button>
+          </form>
 
         </div>
       </section>
@@ -365,9 +365,9 @@
       <section class="package" id="package">
         <div class="container">
 
-          <p class="section-subtitle">Popular Packeges</p>
+          <p class="section-subtitle">Popular Packages</p>
 
-          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+          <h2 class="h2 section-title">Checkout Our Packages</h2>
 
           <p class="section-text">
             Temukan berbagai pilihan paket wisata yang dirancang 
@@ -445,7 +445,6 @@
                     <span>/ per person</span>
                   </p>
 
-                  <button class="btn btn-secondary">Book Now</button>
 
                 </div>
 
@@ -521,7 +520,6 @@
                     <span>/ per person</span>
                   </p>
 
-                  <button class="btn btn-secondary">Book Now</button>
 
                 </div>
 
@@ -598,7 +596,6 @@
                     <span>/ per person</span>
                   </p>
 
-                  <button class="btn btn-secondary">Book Now</button>
 
                 </div>
 
@@ -607,7 +604,10 @@
 
           </ul>
 
-          <button class="btn btn-primary">View All Packages</button>
+          <form action="./../proses/packages.php" method="get">
+            <button type="submit" class="btn btn-primary">View All Packages</button>
+          </form>
+
 
         </div>
       </section>
@@ -665,8 +665,11 @@
             </li>
 
           </ul>
-
+                <form action="./../proses/gallery.php"method="get">
+                    <button type="submit" class="btn btn-primary">view all gallery</button>
+                </form>
         </div>
+
       </section>
 
 
