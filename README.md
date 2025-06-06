@@ -15,3 +15,11 @@
 - **CSS**
 - **JavaScript**
 - **PHP**
+
+##  Cara Menjalankan
+
+1. **Download atau clone** repositori:
+   ```bash
+   git clone https://github.com/Fauzan-Aldi/PerancanganWeb_LagoiBay.git
+   cd PerancanganWeb_LagoiBay
+2. Buka file index.html di browser modern (Chrome/Firefox/Edge).
