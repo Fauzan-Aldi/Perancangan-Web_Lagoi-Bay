@@ -9,8 +9,8 @@ Website ini merupakan proyek mata kuliah *Perancangan Web* yang bertujuan untuk 
 
 ## 💻 Teknologi yang Digunakan
 
-* **HTML5** – Struktur halaman web
-* **CSS3** – Desain dan layout
+* **HTML** – Struktur halaman web
+* **CSS** – Desain dan layout
 * **JavaScript** – Interaktivitas dan efek
 * **PHP** – Pengolahan backend 
 
