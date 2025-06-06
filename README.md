@@ -25,7 +25,7 @@ Website ini merupakan proyek mata kuliah *Perancangan Web* yang bertujuan untuk 
 
 2. **Buka file `index.html`** di browser (Chrome, Firefox, Edge, dll).
 
-   > Jika terdapat file PHP, disarankan menggunakan server lokal seperti [XAMPP](https://www.apachefriends.org/) atau [Laragon](https://laragon.org/) agar fungsi PHP berjalan dengan baik.
+   > Disarankan menggunakan server lokal seperti [XAMPP](https://www.apachefriends.org/) atau [Laragon](https://laragon.org/) agar fungsi PHP berjalan dengan baik.
 
 3. (Opsional) Jalankan XAMPP, letakkan folder di `htdocs`, lalu akses melalui:
 
