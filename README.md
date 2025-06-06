@@ -27,7 +27,7 @@ Website ini merupakan proyek mata kuliah *Perancangan Web* yang bertujuan untuk 
 
    > Disarankan menggunakan server lokal seperti [XAMPP](https://www.apachefriends.org/) atau [Laragon](https://laragon.org/) agar fungsi PHP berjalan dengan baik.
 
-3. (Opsional) Jalankan XAMPP, letakkan folder di `htdocs`, lalu akses melalui:
+3. Jalankan XAMPP, letakkan folder di `htdocs`, lalu akses melalui:
 
    ```
    http://localhost/PerancanganWeb_LagoiBay
