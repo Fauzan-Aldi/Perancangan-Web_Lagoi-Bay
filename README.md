@@ -1,7 +1,3 @@
-Readme kamu sudah cukup baik dan informatif. Namun, ada beberapa hal yang bisa ditambahkan atau diperbaiki agar lebih lengkap, profesional, dan mudah dipahami. Berikut revisi dan tambahan yang disarankan:
-
----
-
 # Lagoi Bay Web Project
 
 **Mata Kuliah:** Perancangan Web
